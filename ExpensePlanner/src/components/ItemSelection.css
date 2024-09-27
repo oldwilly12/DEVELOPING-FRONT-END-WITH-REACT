@@ -1,0 +1,18 @@
+/* Asegúrate de aplicar esta clase */
+.buttons {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+  }
+
+.card-img-top{
+  /* ItemSelection.css */
+  height: 200px; /* Ajusta la altura a la que necesites */
+  object-fit: cover; /* Mantiene la proporción y recorta la imagen si es necesario */
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+}
+
+#adjbutton{
+  display: flex;
+  flex-direction: row;
+}
