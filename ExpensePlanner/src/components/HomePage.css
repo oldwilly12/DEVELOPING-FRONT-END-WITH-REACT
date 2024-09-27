@@ -1,0 +1,79 @@
+/* src/components/HomePage.css */
+.homepage-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('Imagen_ExpensePlanner.jpg'); /* Reemplaza por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Desenfoque del fondo */
+    z-index: 0; /* Asegúrate de que quede detrás */
+}
+  
+  .homepage-content {
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente */
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 80%;
+    width: 100%;
+    color: #fff;
+    z-index: 1;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .left-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .left-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .get-start-button {
+    background-color: #f0ad4e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .get-start-button:hover {
+    background-color: #ec971f;
+  }
+  
+  .right-section {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .right-section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 16px;
+  }
