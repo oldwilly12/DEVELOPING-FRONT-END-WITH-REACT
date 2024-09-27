@@ -11,8 +11,3 @@
   object-fit: cover; /* Mantiene la proporción y recorta la imagen si es necesario */
   width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
 }
-
-#adjbutton{
-  display: flex;
-  flex-direction: row;
-}
