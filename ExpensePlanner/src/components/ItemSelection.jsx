@@ -12,9 +12,7 @@ const ItemSelection = ({ items }) => {
               <img src={item.image} className="card-img-top" alt={item.name} />
               <div className="card-body">
                 <h5 className="card-title">{item.name}</h5>
-                <h6 className="card-subtitle mb-2 text-muted">
-                  Capacity: {item.capacity}
-                </h6>
+                {item.capacity && <h6 className="card-subtitle mb-2 text-muted">Capacity: {item.capacity}</h6>}
                 <p className="card-text">Price: ${item.price}</p>
                 <div className="buttons">
                     <div className="d-flex gap-2 d-md-flex justify-content-end align-items-center flex-row flex-nowrap">
