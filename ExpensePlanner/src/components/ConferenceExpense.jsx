@@ -12,11 +12,11 @@ const rooms = [
   ];
 
 const addOns = [
-    { id: 1, name: "Projector", price: 200, image: images.ProjectorImage},
-    { id: 2, name: "Speaker", price: 35, image: images.SpeakerImage },
-    { id: 3, name: "Microphones", price: 45, image: images.MicrophonesImage },
-    { id: 4, name: "Whiteboards", price: 80, image: images.WhiteboardsImage },
-    { id: 5, name: "Signage", price: 80, image: images.SignageImage },
+    { id: 1, name: "Projector", price: 200, image: IMAGES.ProjectorImage},
+    { id: 2, name: "Speaker", price: 35, image: IMAGES.SpeakerImage },
+    { id: 3, name: "Microphones", price: 45, image: IMAGES.MicrophonesImage },
+    { id: 4, name: "Whiteboards", price: 80, image: IMAGES.WhiteboardsImage },
+    { id: 5, name: "Signage", price: 80, image: IMAGES.SignageImage },
 ];
 
 
@@ -36,7 +36,7 @@ const ConferenceExpense = () =>{
                         />
                     </div>
                 </div>
-                <div className='title2 mx-5 my-2'>
+                <div className='title2'>
                     <h1 className='bg-secondary my-2 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-block mx-auto text-center'>Venue Room Selection</h1>
                     <div className='cards-accesorios'>
                     <ItemSelection
@@ -44,7 +44,7 @@ const ConferenceExpense = () =>{
                         />
                     </div>
                 </div>
-                <div className='title3 mx-5 my-2'>
+                <div className='title3'>
                     <h1 className='bg-secondary my-2 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-block mx-auto text-center'>Venue Room Selection</h1>
                     <div className='meals'>
 

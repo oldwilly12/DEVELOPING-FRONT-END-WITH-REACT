@@ -6,10 +6,10 @@ const IMAGES = {
     SmallMeetingRoomImage : new URL('./SmallMeetingRoom.jpeg', import.meta.url).href,
     // Accesorios 
     ProjectorImage : new URL('./Projector.jpg', import.meta.url).href,
-    SpeakerImage : new URL('./Speaker.jpeg', import.meta.url).href,
-    MicrophonesImage : new URL('./Microphones.jpeg', import.meta.url).href,
+    SpeakerImage : new URL('./Speaker.jpg', import.meta.url).href,
+    MicrophonesImage : new URL('./Microphones.jpg', import.meta.url).href,
     WhiteboardsImage : new URL('./SmallMeetingRoom.jpeg', import.meta.url).href,
-    SignageImage : new URL('./Signage.jpeg', import.meta.url).href
+    SignageImage : new URL('./Signage.jpg', import.meta.url).href
 }
 
 export default IMAGES
