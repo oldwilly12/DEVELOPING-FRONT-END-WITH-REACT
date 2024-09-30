@@ -37,7 +37,7 @@ const ConferenceExpense = () =>{
                     </div>
                 </div>
                 <div className='title2'>
-                    <h1 className='bg-secondary my-2 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-block mx-auto text-center'>Venue Room Selection</h1>
+                    <h1 className='bg-secondary my-2 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-block mx-auto text-center'>Add-ons Selection</h1>
                     <div className='cards-accesorios'>
                     <ItemSelection
                            items = {selectedAccesorios}
@@ -45,7 +45,7 @@ const ConferenceExpense = () =>{
                     </div>
                 </div>
                 <div className='title3'>
-                    <h1 className='bg-secondary my-2 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-block mx-auto text-center'>Venue Room Selection</h1>
+                    <h1 className='bg-secondary my-2 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-block mx-auto text-center'>Meals Selection</h1>
                     <div className='meals'>
 
                     </div>
