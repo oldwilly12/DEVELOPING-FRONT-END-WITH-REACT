@@ -1,0 +1,52 @@
+.title-form{
+    color:black;
+    font-weight: bold;
+}
+
+.contain-form{
+    display: relative;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-subtitle{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+.title-subtitle::before{  
+  content: ""; /* Necesario para mostrar el pseudo-elemento */
+  position: absolute; /* Permite que el fondo cubra todo el contenedor */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 192, 203, 0.2); /* Fondo rosado con 50% de opacidad */
+  z-index: -1; /* Coloca el fondo detrás del contenido */
+  border: solid;
+  border-color: palevioletred;
+  border-width: 1px;
+  border-radius: 10px; /* Opcional: ajusta el radio del borde si quieres esquinas redondeadas */
+}
+
+.subtitle{
+    color:black;
+}
+
+.title-form{
+    color:black;
+}
+
+.btn {
+    background-color: palevioletred;
+}
+
+textarea{
+    height: 150px;
+    resize: none;
+}
+
